@@ -1,0 +1,27 @@
+[package]
+name = "agentdb"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = ""Interface for agent persistence""
+documentation = "https://docs.rs/agentdb"
+homepage = "https://github.com/cryptopatrick/agentdb"
+repository = "https://github.com/cryptopatrick/agentdb"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "agentdb"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
