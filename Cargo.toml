@@ -1,16 +1,16 @@
 [package]
 name = "agentdb"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
 
 ###############################################################################
-description = ""Interface for agent persistence""
+description = "Interface for agent persistence."
 documentation = "https://docs.rs/agentdb"
 homepage = "https://github.com/cryptopatrick/agentdb"
 repository = "https://github.com/cryptopatrick/agentdb"
 readme = "README.md"
-keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+keywords = ["AI", "Agents", "Database"]
 license = "MIT"
 autotests = false
 
